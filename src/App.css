@@ -1,0 +1,60 @@
+body{background:#eee;}
+
+.main-title {
+  font-size:40px;
+  background:#eee;
+  text-align: center;
+  margin:0
+}
+
+nav{
+  background:#f8f9fb;
+  padding:20px;
+}
+
+nav a {
+  padding-right:10px;
+  text-decoration:none;
+  color:#666;
+}
+
+.add-input .new-todo{
+  text-align:center;
+  padding:20px;
+  background: #fff;
+}
+
+.check {
+  background:#63b3e2;
+  border-radius:100%;
+  color:#fff;
+  display:inline-block;
+  width:20px;
+  height:20px;
+  text-align:center;
+  margin-right:10px;
+}
+
+.todo-list {
+  padding: 20px;
+  background:#fff;
+  margin:5px;
+}
+.clear-btn {
+  display:block;
+  width: 100%;
+  padding:20px;
+  color:red;
+  border:none;
+}
+
+.plus-btn {
+  color:#fff;
+  background:#000381;
+  margin-left:5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  cursor: pointer;
+}
