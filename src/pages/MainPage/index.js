@@ -98,7 +98,7 @@ function MainPage() {
           placeholder="New Todo"
           size="40"
         />
-        <button onClick={addTodo} className="plus-btn">+</button>
+        <button onClick={addTodo} className="plus-btn">입력</button>
       </div>
 
       {todoList.map((todo) => (

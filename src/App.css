@@ -12,6 +12,10 @@ body{
 
 p {margin:2px;}
 
+.container {
+  max-width:768px;
+}
+
 .main-title {
   font-size:40px;
   background:#eee;
